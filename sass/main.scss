@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway&display=swap');
+
 // Image variables
 $transparent-background: url("../images/cubes-background.png");
 
@@ -7,6 +10,7 @@ $transparent-background: url("../images/cubes-background.png");
 $blue: #3f72af;
 
 // Change Bulma variables
+$family-sans-serif: 'Raleway', sans-serif;
 $primary: $blue;
 
 // Update elements
@@ -21,6 +25,10 @@ body {
     background-color: transparent;
     background-image: none;
   }
+}
+
+.navbar-brand {
+  font-family: 'Caveat', cursive;
 }
 
 .footer {

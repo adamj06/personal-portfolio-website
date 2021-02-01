@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Raleway&display=swap");
 body {
   background-image: url("../images/cubes-background.png"); }
 
 .navbar.is-transparent {
   background-color: transparent;
   background-image: none; }
+
+.navbar-brand {
+  font-family: 'Caveat', cursive; }
 
 .footer.is-transparent {
   background-color: transparent;
@@ -247,7 +251,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 code,
 pre {
@@ -1408,13 +1412,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Raleway", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Raleway", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Raleway", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
